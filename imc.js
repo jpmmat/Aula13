@@ -1,4 +1,4 @@
-let peso = parseFloat(prompt("Digite seu peso em kg. Ex.: 80,0"));
+let peso = parseFloat(prompt("Digite seu peso em kg. Ex.: 80.0"));
 let altura = parseFloat(prompt("Digite sua altura em metros. Ex.: 1.75 "));
 //Calculo do Imc
 let imc = peso/(altura*altura);
