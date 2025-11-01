@@ -16,5 +16,3 @@ if(imc < 18.5){
 else if(imc>39.9){
   console.log(`Seu IMC é ${imc}.Você está em estado de obesidade grave`)
 };
-
-
