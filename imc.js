@@ -17,19 +17,4 @@ else if(imc>39.9){
   console.log(`Seu IMC é ${imc}.Você está em estado de obesidade grave`)
 };
 
-switch (imc) {
-  case imc<18.5:
-    console.log(`Seu IMC é ${imc}. Você esta abaixo do nivel ideal de peso`);
-    break;
-  case imc>18.5 && imc<= 24.9:
-    console.log(`Seu IMC é ${imc}. Você está com peso ideal`)
-  case imc>24.9&& imc<=29.9:
-    console.log(`Seu IMC é ${imc}.Você está com peso um pouco acima do  normal` )
-  case imc>29.9&& imc <= 39.9:
-    console.log(`Seu IMC é ${imc}.Você está em estado de obesidade`) 
-  case imc>39.9:
-    console.log(`Seu IMC é ${imc}.Você está em estado de obesidade grave`);
-    break;
-  default:
-    console.log(`Desculpe algo deu errado`);
-}
+
